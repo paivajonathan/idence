@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans&display=swap');
+
+footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    padding: 25px 50px;
+    margin-top: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+footer div {
+	text-align: center;
+}
+
+.icone {
+    margin: 10px 10px;
+    width: 50px;
+    transition: transform 0.5s;
+}
+
+.icone:hover {
+    transform: rotate(360deg);
+}

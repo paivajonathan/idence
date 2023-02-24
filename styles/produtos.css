@@ -1,0 +1,43 @@
+.li-wrapper {
+  width: fit-content;
+}
+
+li {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover, a:focus {
+  color: darkred
+}
+
+.container img {
+  width: 400px;
+  height: 250px;
+  max-width: none;
+}
+
+@media only screen and (max-width: 600px) {  
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .container img {
+    display: none;
+  }
+}
+
+
+

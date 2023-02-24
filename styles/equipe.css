@@ -1,0 +1,27 @@
+.container * {
+  margin: 25px 0px;
+}
+
+.container img {
+	max-width: none;
+}
+
+#jwokks > span {
+  background: linear-gradient(to right, #660A58, #990A99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 600px) { 
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
